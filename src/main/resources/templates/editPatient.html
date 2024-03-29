@@ -15,7 +15,7 @@
         <form method="post" th:action="@{save(page=${page},keyword=${keyword})}">
             <div>
                 <label for="id">ID :</label>
-                <label for="id" th:text="${patient.id}"></label>
+                <label for="id" th:text="${patient.id}">:wq</label>
 
                 <input id="id" class="form-control" type="hidden" name="id" th:value="${patient.id}">
 
